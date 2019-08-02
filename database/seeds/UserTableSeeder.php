@@ -30,12 +30,12 @@ class UserTableSeeder extends Seeder
     public function run()
     {
         $user = [
-            'first_name'        => 'admin',
-            'last_name'         => 'admin',
-            'email'             => 'admin@admin.com',
-            'post_code'         => '5142',
+            'name'        => 'Jack',
+            'first_name'        => 'Jack',
+            'last_name'         => 'Sparrow',
+            'email'             => 'promenum@gmail.com',
             'email_verified_at' => now(),
-            'password'          => bcrypt('password'),
+            'password'          => bcrypt('asdfasdf'),
             'remember_token'    => str_random(10),
         ];
 

@@ -2,9 +2,9 @@
 /*
  * Dashboard Route
  *
- * Route for admin home
+ * Route for cms home
 */
 
-//$this->get('/home', 'HomeController@index')->name('home');
+$this->router->get('/dashboard', 'DashboardController@index')->name('dashboard');
 
 

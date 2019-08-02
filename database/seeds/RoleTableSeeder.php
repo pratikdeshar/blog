@@ -36,19 +36,11 @@ class RoleTableSeeder extends Seeder
             ]
         );
         $this->roleService->updateOrCreate(
-            ['name' => RoleConstant::RETAILER],
+            ['name' => RoleConstant::STAFF],
             [
-                'name'         => RoleConstant::RETAILER,
-                'display_name' => RoleConstant::RETAILER,
-                'description'  => RoleConstant::RETAILER,
-            ]
-        );
-        $this->roleService->updateOrCreate(
-            ['name' => RoleConstant::SUPPLIER],
-            [
-                'name'         => RoleConstant::SUPPLIER,
-                'display_name' => RoleConstant::SUPPLIER,
-                'description'  => RoleConstant::SUPPLIER,
+                'name'         => RoleConstant::STAFF,
+                'display_name' => RoleConstant::STAFF,
+                'description'  => RoleConstant::STAFF,
             ]
         );
     }
